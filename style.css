@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #F7CE5B !important;
+}
+
+.menu {
+    background-color: #F7B05B !important;
+}
+
+#inicio {
+    background-color: #517664 !important;   
+    color: #192d33;
+    
+}
+
+#pitagoras {
+    background-color: #192d33 !important;
+    color: #517664;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 15px !important;
+
+}
+.texto {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 70px;
+    padding-bottom: 15px;
+}
+.equacao {
+    text-align: center;
+    color: white;
+    font-size: 30px !important;
+}
+.form {
+    text-align:center;
+    font-size: 20px !important;
+    color: white;
+}
+
+.centralize {
+    margin: auto !important;
+    display: block !important;
+}
