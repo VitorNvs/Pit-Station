@@ -23,7 +23,7 @@ function pitagoras(){
             equacao.innerHTML = `${b}<sup>2</sup> + ${c_real.toFixed(2)}<sup>2</sup> = ${a}<sup>2</sup>`
         }
     }
-    else if(b.toString == "" && c.toString() != "" && a.toString() != ""){
+    else if(b.toString() == "" && c.toString() != "" && a.toString() != ""){
         c = parseInt(c)
         a = parseInt(a)
         b2 = a**2 - c**2
@@ -94,7 +94,7 @@ function equacao2(){
             }
             var x = (0-b)/2*a
             var y = (0-delta)/4*a  
-            
+
             if(a > 0){
                 alert("alert2","primary",`Valor mínimo de X: ${x} / Valor mínimo de Y: ${y}`)
             }
