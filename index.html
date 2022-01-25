@@ -30,8 +30,8 @@
                         </a>
                         <ul class="dropdown-menu menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="#pitagoras">Teorema de Pitágoras</a></li>
-                            <li><a class="dropdown-item" href="#">Relações Métricas</a></li>
-                            <li><a class="dropdown-item" href="#">Equações do Segundo Grau</a></li>
+                            <li><a class="dropdown-item" href="#segundo_grau">Função do Segundo Grau</a></li>
+                            <li><a class="dropdown-item" href="#">Progressão Aritmética</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -62,7 +62,7 @@
     </section>
 
     <section id="pitagoras">
-        <div class="container-fluid"></div>
+        <div class="container-fluid">
             <h1 class="titulo">Teorema de Pitágoras</h1>
             <img src="img/triangulo-b_c_iguais.png" class="centralize">
             <p id ="equacao" class="equacao">B<sup>2</sup> + C<sup>2</sup> = A<sup>2</sup></p>
@@ -82,12 +82,39 @@
                             <label for="a">A </label>
                             <input type="number"class="form-control"id="a">
                         </div>
-                    </div>
-                    
+                    </div> 
                 </div>
             </form>
             <button class="btn btn-warning centralize" onclick="pitagoras()">Ver resultado</button>
             <p id="teste"></p>
+        </div>
+    </section>
+    <section id="segundo_grau">
+        <div class="container-fluid">
+            <h1 class="titulo">Função do Segundo Grau</h1>
+            <img src="img/grafico-da-funcao.jpg" width=400px class="centralize">
+            <p id ="equacao2" class="equacao">ax<sup>2</sup> + bx + c = y</p>
+            <div id = alert></div>
+            <div id = alert2></div>
+            <form class="form">
+                <div class="container py-2">
+                    <div class="row justify-content-center">
+                        <div class="col-2"> 
+                            <label for="2a">A </label>
+                            <input type="number"class="form-control"id="2a">
+                        </div>
+                        <div class="col-2"> 
+                            <label for="2b">B </label>
+                            <input type="number"class="form-control"id="2b">
+                        </div>
+                        <div class="col-2"> 
+                            <label for="2c">C </label>
+                            <input type="number"class="form-control"id="2c">
+                        </div>
+                    </div> 
+                </div>
+            </form>
+            <button class="btn btn-warning centralize" onclick="equacao2()">Ver resultado</button>
         </div>
     </section>
 </body>

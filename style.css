@@ -18,6 +18,12 @@
     padding-bottom: 50px;
 }
 
+#segundo_grau {
+    background-color:  #517664 !important;
+    color: #192d33;
+    padding-bottom: 50px;
+}
+
 .titulo {
     text-align: center;
     padding-top: 15px !important;
@@ -44,4 +50,9 @@
 .centralize {
     margin: auto !important;
     display: block !important;
+}
+#alert {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
 }
